@@ -1,0 +1,17 @@
+nav{
+    background-color: darkgreen;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.simbolo{
+    margin-top: 25px;
+    flex-direction: row;
+}
+a{
+    margin: 10px;
+    vertical-align: middle;
+    font-size: 20px;
+    color: azure;
+}
