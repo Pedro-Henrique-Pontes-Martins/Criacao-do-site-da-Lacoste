@@ -74,17 +74,20 @@ footer{
 .bar{
     width: 70px;
     height: 20px;
-    border: 20px, solid, black;
+    background: rgb(25, 164, 94);
+    border-radius: 20px;
+    margin: 0 10px;
 }
 .bar:hover{
-    background: green;
+    background: white;
+    border: 3px, solid,rgb(25, 164, 94);;
 }
 label{
     width: 30px;
     height: 30px;
-    border: 30px, solid, green;
 }
 .imagens-slides{
     height: 350px;
     width: 450px;
+    transition: 0.6;
 }
