@@ -104,11 +104,12 @@ form{
     display: flex;
     flex-direction: column;
 }
-form h1{
+h1{
     text-align: center;
     color: rgb(5, 145, 82);
     margin-top: 30px;
     text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 form label{
     display: block;
@@ -142,4 +143,37 @@ form input{
     background-color: white;
     border-color: rgb(2, 106, 59);
     color: rgb(2, 106, 59);;
+}
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.produtos div{
+    display: flex;
+    width: 25%;
+    height: 50vh;
+    margin: 2% 4%;
+    box-shadow: 1px 1px 1px 1px rgb(2, 106, 59);
+    border-radius: 10px;
+    flex-direction: column;
+}
+.produtos div:hover{
+    color: rgb(2, 106, 59);
+    box-shadow: 1px 1px 1px 1px black;
+}
+.produtos img{
+    width: 80%;
+    height: 50%;
+}
+.produtos p{
+    margin: 8% 20%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.produtos a{
+    color: black;
+    margin: 0 20%;
+}
+.produtos a:hover{
+    text-decoration: none;
+    pointer-events: none;
 }
