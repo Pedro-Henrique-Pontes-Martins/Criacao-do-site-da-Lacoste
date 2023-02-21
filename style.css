@@ -177,3 +177,22 @@ form input{
     text-decoration: none;
     pointer-events: none;
 }
+.historia{
+    display: flex;
+    flex-direction: column;
+}
+.texto_historia h3{
+    color: rgb(5, 145, 82);
+    text-align: center;
+}
+.texto_historia{
+    width: 60%;
+    padding: 30px;
+    margin: 2% 20%;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(39, 39, 39);
+    border-radius: 10px;
+    background-color: rgb(216, 255, 224);
+}
