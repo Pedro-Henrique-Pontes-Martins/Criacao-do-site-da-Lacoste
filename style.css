@@ -193,6 +193,28 @@ form input{
     text-align: justify;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(39, 39, 39);
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: rgb(216, 255, 224);
+}
+.contatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contato{
+    margin-left: 20%;
+    margin: 2% 35%;
+}
+.contato img{
+    width: 5vw;
+    height: 50%;
+    margin-right: 0;
+}
+.contato a{
+    color: black;
+    font-size: 25px;
+    margin-left: 0;
+}
+.contato a:hover{
+    color: rgb(5, 145, 82) ;
 }
